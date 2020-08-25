@@ -1,0 +1,25 @@
+8. Problem Statement:
+
+What does the following program print?
+
+// This is the Hello Rank program in Java
+
+class HelloRank {
+
+      public static void main (String args[ ]) {     
+
+        String name = "Rank";
+
+        /* Now let's say hello */
+
+        System.out.println("Hello + name");
+
+      }
+} 
+
+Answer - The above program prints 
+
+Hello + name
+
+and not "Hello Rank" because the text given within the double quotes of the System.out.println prints as it is and not performs the String Concatenation
+

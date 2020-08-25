@@ -1,0 +1,36 @@
+9. Problem Statement:
+
+What is wrong with this program?
+
+// This is the Hello program in Java
+
+class Hello {
+
+    public static void main (String args[ ]) {   
+
+        int i;   
+
+        System.out.print("Hello ");       // Say Hello
+
+        i = 0;                               // Initialize loop counter
+
+        while (i <= args.length) {    // Test and Loop
+
+            System.out.print(args[i] + " "); 
+
+            i = i + 1;                     // Increment Loop Counter
+
+        }
+
+        System.out.println();             // Finish the line
+
+    }
+}
+
+Answer - The above program prints
+
+Hello 
+[ArrayIndexOutOfBoundException] occurs
+
+The Exception occurs as the length of args is 0 and trying to access args[0] which has no value results with exception
+
