@@ -1,0 +1,39 @@
+2. Assume there are “n” batsmen and their total scores put together in all the matches they played so far are given in a list. 
+For a simple statistics it is required to know the sum of all scores of batsmen who are in the even position of the list. 
+Write a program to find the sum of all scores in the even position of the list.
+
+ 
+
+Input Format:
+
+First line of the input is an integer “n” that corresponds to the number of batsmen.
+
+Next “n” lines contains an integer which corresponds to the scores of the batsmen each.
+
+ 
+
+Output Format:
+
+Output should display the sum of all scores in the even position of the list as an integer in a single line.
+
+ 
+
+Sample Input
+
+6
+
+765
+
+879
+
+779
+
+745
+
+898
+
+645
+
+Sample Output
+
+2269

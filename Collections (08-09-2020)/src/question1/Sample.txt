@@ -1,0 +1,39 @@
+ 1.   There is a list containing the top “n” scores of such superstar batsmen in IPL. Rahul, a statistician has to himself a wealth of 
+ Cricket knowledge. He now intended to analyse a specific statistics with these top scores. He wanted to find and display the sum of the scores 
+ in the array list that are odd and have an even index, or the scores that are even and have an odd index or display both the sums if applicable. 
+ Write a program to help him accomplish the task.
+
+ 
+
+Input Format:
+
+First line of the input is an integer “n” that corresponds to the number of top scores of the batsmen.
+
+Next “n” lines of integers contains those top scores each.
+
+ 
+
+Output Format:
+
+Output should display an integer in a single line, that gives the of the sum of scores in the array list that are odd and have an even index,
+or sum of scores that are even and have an odd index.
+
+ 
+
+Sample Input
+
+5
+
+51
+
+78
+
+120
+
+21
+
+46
+
+Sample Output
+
+187

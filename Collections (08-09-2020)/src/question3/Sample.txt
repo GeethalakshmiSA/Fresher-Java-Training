@@ -1,0 +1,44 @@
+3.Comparator - Team name and Number of matches
+
+
+Write a Java program to get the team name and number of matches played by the team from the user and display a report with team name and 
+number of matches sorted based on the number of batches in ascending order. Use Collection.sort() method to perform the sorting in your main class. 
+Send the Comparator object as second argument to the sort method to use this comparator for sorting. 
+
+Create a main class " Main.java" 
+Create Team class with below attributes, 
+name - String 
+numberOfMatches - Long 
+Include a constructor accepting Team name and number of matches as arguments 
+Add appropriate getter and setter methods for Team class 
+
+Create TeamComparator implementing Comparator interface 
+Implement compare method to compare two team objects based on their number of matches played. 
+
+Input and Output Format: 
+First input corresponds to the number of teams and followed by each team information. 
+Refer sample input and output for formatting specifications. 
+
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input/Output : 
+Enter number of teams: 
+3 
+Enter team 1 detail 
+Enter Name 
+Chennai super Kings 
+Enter number of matches 
+132 
+Enter team 2 detail 
+Enter Name 
+Royal Challengers Bangalore 
+Enter number of matches 
+139 
+Enter team 3 detail 
+Enter Name 
+Delhi Daredevils 
+Enter number of matches 
+131 
+Team list after sort by number of matches 
+Delhi Daredevils – 131 
+Chennai super Kings – 132 
+Royal Challengers Bangalore - 139 
