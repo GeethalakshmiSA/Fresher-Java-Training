@@ -1,0 +1,44 @@
+.section{
+	font-family: sans-serif;
+	font-variant: normal;
+}
+
+.constant{
+	background-image: url(bgimage.jpg);
+}
+
+.tabsection, table, footer{
+	background-color: white;
+	border: 1px solid black;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+td{
+	border: 1px solid black;
+	padding: 3px;
+}
+
+thead{
+	text-align: center;
+	font-weight: bold;
+}
+
+ul{
+	list-style-type: square;
+}
+
+ul li::before {
+  content: "\25A0";
+  color: #b43cdd;
+  font-weight: 600;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 20px;
+}
