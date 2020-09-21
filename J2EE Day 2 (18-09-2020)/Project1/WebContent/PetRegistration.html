@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pet Registration Form</title>
+<style>
+	.sec{
+		align-content: center;
+		border: medium;
+		border-color: blue;
+	}
+</style>
+</head>
+<body>
+	<h1 style="text-decoration: underline; font-size: medium; text-align: center;">
+	PET REGISTRATION FORM
+	</h1>
+	<br/>
+	<form method="post" action="http://localhost:8086/Project1/PetRegistrationServlet" class="sec">
+	<table>
+		<tr>
+		<td><label>First Name</label> </td>
+		<td><input type="text" name="fn"></td>
+		</tr>
+		<tr>
+		<td><label>Last Name</label></td>
+		<td><input type="text" name="ln"></td>
+		</tr>
+		<tr>
+		<td><label>Address</label></td>
+		<td><input type="text" maxlength="50" name="addr"></td>
+		</tr>
+		<tr>
+		<td><label>Email Id</label></td>
+		<td><input type="email" name="email"></td>
+		</tr>
+		<tr>
+		<td><label>City</label></td>
+		<td><input type="text" name="city"></td>
+		</tr>
+		<tr>
+		<td><label>State</label></td>
+		<td><input type="text" name="state"></td>
+		</tr>
+		<tr>
+		<td><label>Phone Number</label></td>
+		<td><input type="number" maxlength="10" name="mob"></td>
+		</tr>
+		<tr>
+		<td><label>Pet Name</label></td>
+		<td><input type="text" name="pname"></td>
+		</tr>
+		<tr>
+		<td><label>Pet Type</label></td>
+		<td><input type="text" name="ptype"></td>
+		</tr>
+		<tr>
+		<td><label>Pet Age</label></td>
+		<td><input type="number" maxlength="2" name="page"></td>
+		</tr>
+		<tr>
+		<td><input type="submit" value="Submit"></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
